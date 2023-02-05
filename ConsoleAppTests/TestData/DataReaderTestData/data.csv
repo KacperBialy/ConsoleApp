@@ -1,0 +1,8 @@
+﻿Type;Name;Schema;ParentName;ParentType;DataType;IsNullable
+Table;SalesTaxRate;Sales;AdventureWorks2016_EXT;Database;NULL;
+
+database;BaseballData;;;;;
+Table;TrackingEvent;Sales;AdventureWorks2016_EXT;Database;NULL;
+
+Database;Northwind;;;;;
+column;Bonus;Sales;SalesTaxRate;TABLE;money;0

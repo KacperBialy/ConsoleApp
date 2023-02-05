@@ -43,15 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataReader.cs" />
+    <Compile Include="Models\Column.cs" />
+    <Compile Include="Models\Database.cs" />
+    <Compile Include="Models\SqlInfoBase.cs" />
+    <Compile Include="Models\SqlStructure.cs" />
+    <Compile Include="Models\Table.cs" />
+    <Compile Include="Services\DatabaseStructureCreator.cs" />
+    <Compile Include="Services\SqlStructureFormater.cs" />
+    <Compile Include="Services\DatabaseStructurePrinter.cs" />
+    <Compile Include="Services\SqlStructureReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IDatabaseStructureCreator.cs" />
+    <Compile Include="Interfaces\ISqlStructureFormater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="data.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
