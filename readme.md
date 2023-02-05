@@ -19,5 +19,5 @@ ImportedObjects = new List<ImportedObject>() { new ImportedObject() };
 11. Kod jest strasznie wolny, cały program wykonuje się 3-4 sekundy, w udostępnionym kodzie poprzez zastosowanie odpowiednich struktur, które redukują niepotrzebne iterację udało się zredukować czas do <1s.
 12. Brak jakichkolwiek testów, co znacznie utrudnia refaktoryzację i zrozumienie kodu. W udostępnionym projekcie zostały dodane podstawowe testy, pokrywające większość kluczowych funkcjonalności programu, przez co kolejne refaktoryzacje, rozszerzenia, będą znacznie szybsze i bezpieczniejsze.
 13. Dodatkowo, należy uważać na wczytywanie danych do pamięci, możemy tutaj przekroczyć dostępną pamięć i dostać OutOfMemoryException. Pewnie warto by było zabezpieczyć wielość pliku, który będziemy obsługiwać lub zastosować implementacje, która będzie wczytywała dane porcjami.
-
+14. Dodatkowo, warto byłoby dodać jakieś logowanie błędów, w celu późniejszej analizy.
 
