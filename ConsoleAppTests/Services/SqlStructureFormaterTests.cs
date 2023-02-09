@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace ConsoleAppTests.Services
 {
-    public class DataFormaterTests
+    public class SqlStructureFormaterTests
     {
         private ISqlStructureFormater _sqlStructureFormater;
 

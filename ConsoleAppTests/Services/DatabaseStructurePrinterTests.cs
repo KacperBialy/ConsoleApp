@@ -7,7 +7,7 @@ using System.IO;
 
 namespace ConsoleAppTests.Services
 {
-    internal class DataFormatterTests
+    internal class DatabaseStructurePrinterTests
     {
         [Test]
         public void PrintDatabaseStructure_ForDatabaseWithOneTableWithOneColumnStructure_ShouldPrintCorrectMessages()
